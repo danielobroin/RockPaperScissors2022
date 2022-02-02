@@ -18,11 +18,13 @@ function playRound(playerSelection, computerSelection){
         return "tie"
     }
 
-    if (playerSelection == "paper" && computerSelection == "scissors" || playerSelection == "rock" && computerSelection == "paper" || playerSelection == "scissors" && computerSelection == "rock"){
+    if (playerSelection == "paper" && computerSelection == "scissors" || playerSelection == "rock" && computerSelection == "paper" 
+            || playerSelection == "scissors" && computerSelection == "rock"){
         return "loss";
     }
     
-    if (playerSelection == "paper" && computerSelection == "rock" || playerSelection == "rock" && computerSelection == "scissors" || playerSelection == "scissors" && computerSelection == "paper"){
+    if (playerSelection == "paper" && computerSelection == "rock" || playerSelection == "rock" && computerSelection == "scissors" 
+            || playerSelection == "scissors" && computerSelection == "paper"){
         return "win";
     }
 }

@@ -1,0 +1,40 @@
+#paper {
+    background-color: #CD5C5C;
+}
+
+#rock {
+    background-color:#FFBF00;
+}
+
+#scissors {
+    background-color: #4cf19cd0;
+}
+
+.buttons{
+    display:flex;
+    justify-content: center;
+}
+
+button {
+    box-shadow: 3px 3px 2px 0px rgba(0, 0, 0, 0.185);
+    border: none;
+    border-radius: 20px;
+    color: white;
+    font-weight: bold;
+    font-size: large;
+    width: 200px;
+    height: 75px;
+    margin: 50px;
+}
+
+body{
+    background-color: #6495ED;
+}
+
+p{
+    text-align: center;
+    font-size: 75px;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+}
